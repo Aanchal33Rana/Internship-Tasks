@@ -22,6 +22,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    row-gap: 30px;
 }
 .heading
 {
@@ -33,10 +34,24 @@
     width: 200px;
     background-color: white;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .length
 {
-    outline: none;
+    outline: none;    
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 30px;
+    height: 20px;
+    color: black;
+    text-align: center;
+}
+.btn
+{
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
 }
