@@ -17,7 +17,7 @@ btn.addEventListener("click", (e)=>
    const url=`https://article-extractor-and-summarizer.p.rapidapi.com/summarize?url=${input}&lang=en&engine=2`;
 
    summarize.innerText = "Please wait article is summarazing"
-   
+
    if (/[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/.test(input))
    {
     //regular expressions
@@ -26,8 +26,8 @@ btn.addEventListener("click", (e)=>
    else
    {
     fetch(url, options)
-   .then(data=> data.json())
-   .then(data=> 
+   .then(data => data.json())
+   .then(data => 
     {
         //console.log(data?.summarize)
         summarize.innerText = data?.summarize
