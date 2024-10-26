@@ -2,8 +2,8 @@
 const options = {
 	method: 'GET',
 	headers: {
-		'x-rapidapi-key': '0e6e67134cmsh0384fe594e288a8p1a0fd3jsn89e69be5146e',
-		'x-rapidapi-host': 'article-extractor-and-summarizer.p.rapidapi.com'
+		'x-rapidapi-key': '',
+		'x-rapidapi-host': ''
 	}
 };
 
